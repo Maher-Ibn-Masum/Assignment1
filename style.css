@@ -12,12 +12,12 @@ body {
 }
 
 /* Common Section Wrapper Styles */
-.section-wrapper {
+/* .section-wrapper {
     width: 100%;
     display: flex;
     flex-direction: column; 
     align-items: center; 
-}
+} */
 
 /* Common Inner Container for Content Width */
 .container {
@@ -72,7 +72,7 @@ nav {
 
 .logo {
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 900;
     color: #6a5acd;
     padding: 5px 10px;
@@ -98,9 +98,9 @@ nav {
     font-size: 67px;
     font-weight: 800;
     color: #333;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     line-height: 1.2;
-    max-width: 800px;
+    width: 800px;
 }
 
 .call-to-action {
@@ -141,11 +141,11 @@ nav {
 
 .action-content p {
     font-family: 'Raleway', sans-serif;
-    font-size: 19.2px;
+    font-size: 24px;
     color: #555;
     margin-bottom: 30px;
     line-height: 1.6;
-    max-width: 450px;
+    width: 450px;
 }
 
 .launch-preview-button {
@@ -168,4 +168,155 @@ nav {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     display: block;
     object-fit: cover;
+}
+
+/* Productive Users Section */
+.productive-users-section {
+    padding: 80px 0;
+    margin-bottom: 120px; 
+}
+
+.productive-users-inner {
+    background-color: #ede9fe; 
+    border-radius: 20px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.productive-users-inner h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1200px;
+    gap: 30px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #6a5acd;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #555;
+    font-weight: 400;
+}
+
+/* Reviews Section */
+.reviews-section {
+    padding: 80px 0;
+    margin-bottom: 120px; /* Adjusted margin */
+}
+
+.reviews-section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38.4px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 60px;
+    text-align: center; /* Centers the text within the h3 */
+    width: 100%; /* Ensures the h3 takes full available width for centering */
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.review-card {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stars img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    object-fit: contain;
+}
+
+.review-card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reviewer-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.review-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #777;
 }
