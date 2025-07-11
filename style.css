@@ -41,7 +41,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
 }
 
 .banner-container {
@@ -103,7 +103,7 @@ nav {
 /* See It in Action Section */
 .action-section {
     padding: 50px 0;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
 }
 
 .action-section-inner {
@@ -165,7 +165,7 @@ nav {
 /* Productive Users Section */
 .productive-users-section {
     padding: 80px 0;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
 }
 
 .productive-users-inner {
@@ -218,7 +218,7 @@ nav {
 /* Reviews Section */
 .reviews-section {
     padding: 80px 0;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
 }
 
 .reviews-section h3 {
@@ -316,7 +316,7 @@ nav {
 /* Ready to Focus Better Section */
 .focus-better-section {
     padding: 80px 0 120px 0;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
     text-align: center;
     background-color: #F5F8FF; 
 }
@@ -372,7 +372,7 @@ nav {
 /* Newsletter Section */
 .newsletter-section {
     padding: 100px 0;
-    margin-bottom: 120px; 
+    margin-bottom: 60px; 
 }
 
 .newsletter-inner {
@@ -432,7 +432,6 @@ nav {
     font-size: 16px;
     color: #333;
     background-color: #fff;
-    
 }
 
 .form-group input::placeholder,
@@ -453,4 +452,55 @@ nav {
     font-size: 18px;
     width: 100%;
     margin-top: 15px;
+}
+
+/* Footer Section */
+.footer{
+    padding: 80px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 100%; 
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #6a5acd;
+    margin-bottom: 25px;
+}
+
+.footer-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 19.2px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 120px;
+    width: 550px;
+}
+
+.footer-nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    color: #6a5acd;
 }
