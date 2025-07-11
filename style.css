@@ -316,19 +316,19 @@ nav {
 /* Ready to Focus Better Section */
 .focus-better-section {
     padding: 80px 0 120px 0;
-    margin-bottom: 120px; /* Adjusted margin */
+    margin-bottom: 120px; 
     text-align: center;
-    background-color: #F5F8FF; /* Background of the section itself, matching body */
+    background-color: #F5F8FF; 
 }
 
 .focus-better-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFFFFF; /* White container for this section's content */
-    border-radius: 20px; /* Apply border-radius to the container */
-    padding: 60px 40px; /* Add padding to the container */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Optional: add subtle shadow to the container */
+    background-color: #FFFFFF; 
+    border-radius: 20px; 
+    padding: 60px 40px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); 
 }
 
 .focus-better-inner h3 {
@@ -367,4 +367,90 @@ nav {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     display: block;
     object-fit: cover;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    padding: 100px 0;
+    margin-bottom: 120px; 
+}
+
+.newsletter-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.newsletter-text {
+    flex: 1;
+    text-align: left;
+}
+
+.newsletter-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.newsletter-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    align-items: flex-start;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group label {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6a5acd;
+    box-shadow: 0 0 0 3px rgba(106, 90, 205, 0.2);
+}
+
+.submit-button {
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
 }
