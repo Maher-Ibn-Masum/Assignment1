@@ -312,3 +312,59 @@ nav {
     font-size: 14px;
     color: #777;
 }
+
+/* Ready to Focus Better Section */
+.focus-better-section {
+    padding: 80px 0 120px 0;
+    margin-bottom: 120px; /* Adjusted margin */
+    text-align: center;
+    background-color: #F5F8FF; /* Background of the section itself, matching body */
+}
+
+.focus-better-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF; /* White container for this section's content */
+    border-radius: 20px; /* Apply border-radius to the container */
+    padding: 60px 40px; /* Add padding to the container */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Optional: add subtle shadow to the container */
+}
+
+.focus-better-inner h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.focus-better-inner p {
+    font-family: 'Inter', sans-serif;
+    font-size: 19.2px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.get-started-button {
+    padding: 15px 35px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.focus-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.focus-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    display: block;
+    object-fit: cover;
+}
